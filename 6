@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: #f9f6f1;
+    color: #3a2e22;
+}
+header {
+    background: #5a381e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+}
+footer {
+    background: #5a381e;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+.hero {
+    height: 400px;
+    background: url('https://user-gen-media-assets.s3.amazonaws.com/seedream_images/2128b3f0-1bd4-490e-8d8a-38d8676223c7.png') center/cover no-repeat;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    background: #5a381e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+form button:hover {
+    background: #7b5234;
+}
