@@ -27,7 +27,7 @@
         </section>
     </main>
     <footer>
-        &copy; 2025 Cabana Cioclovina | Telefon: 0720 123 456 | Email: contact@cabana-cioclovina.ro
+        &copy; 2025 Cabana Cioclovina | Telefon: 0742 178 592 | Email: contact@cabana-cioclovina.ro
     </footer>
 </body>
 </html>
